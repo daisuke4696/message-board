@@ -3,7 +3,6 @@
     メッセージ一覧
   </div>
     
-  <%= form_for(@message) do |f| %>
   <% if @message.errors.present? %>
     <div class="alert alert-danger">
       <%= alert %>
@@ -40,5 +39,3 @@
     </div>
   </div>
 <% end %>
-
-
